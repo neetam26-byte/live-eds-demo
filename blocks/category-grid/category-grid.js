@@ -1,30 +1,42 @@
-export default function decorate(block) {
-  const ul = document.createElement('ul');
-  ul.className = 'category-grid';
-
-  [...block.children].forEach((row) => {
-    const cells = [...row.children];
-
-    const li = document.createElement('li');
-
-    const image = cells[0];
-    const title = cells[1];
-    const link = cells[2];
-
-    const a = document.createElement('a');
-    a.href = link.textContent.trim();
-
-    a.append(image);
-
-    const caption = document.createElement('div');
-    caption.className = 'category-title';
-    caption.textContent = title.textContent;
-
-    a.append(caption);
-
-    li.append(a);
-    ul.append(li);
-  });
-
-  block.replaceChildren(ul);
-}
+[
+  {
+    "title": "Artificial Intelligence",
+    "image": "/media/ai.jpg",
+    "link": "/artificial-intelligence"
+  },
+  {
+    "title": "Servers",
+    "image": "/media/server.jpg",
+    "link": "/servers"
+  },
+  {
+    "title": "Data Storage",
+    "image": "/media/storage.jpg",
+    "link": "/data-storage"
+  },
+  {
+    "title": "Cyber Resilience",
+    "image": "/media/cyber.jpg",
+    "link": "/cyber-resilience"
+  },
+  {
+    "title": "Laptops",
+    "image": "/media/laptop.jpg",
+    "link": "/laptops"
+  },
+  {
+    "title": "Desktops",
+    "image": "/media/desktop.jpg",
+    "link": "/desktops"
+  },
+  {
+    "title": "Monitors",
+    "image": "/media/monitor.jpg",
+    "link": "/monitors"
+  },
+  {
+    "title": "Webcams",
+    "image": "/media/webcam.jpg",
+    "link": "/webcams"
+  }
+]
