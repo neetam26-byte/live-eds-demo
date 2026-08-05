@@ -7,7 +7,7 @@ export default function decorate(block) {
     row.classList.add(`columns-${columns.length}`);
 
     columns.forEach((column) => {
-      column.classList.add('column');
+      column.classList.add('custom-column');
     });
   });
 }
