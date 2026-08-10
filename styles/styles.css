@@ -315,6 +315,10 @@ main > .section:first-of-type {
     padding: 0 32px;
   }
 }
+/* Cards background color-section/page style*/
+body.Productway {
+  background-color: #000;
+}
 
 /* section metadata */
 main .section.light,
