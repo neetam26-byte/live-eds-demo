@@ -142,6 +142,11 @@ function decorateButtons(main) {
   });
 }
 
+/* Cards background color-section/page style*/
+const path = window.location.pathname;
+if (path === '/Productway') {
+  document.body.classList.add('Productway');
+}
 /**
  * Decorates the main element.
  * @param {Element} main The main element
