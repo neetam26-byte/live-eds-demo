@@ -8,7 +8,9 @@
   margin: 48px auto;
   -animation: rgba(0, 42, 88, .08);
   background-color: #0a0e14;
+  color: #fff;
 }
+
 /* //**background: linear-gradient(147deg,#839db4,#d2d2d2 100%);**\\*/
 
 .custom-columns > div {
