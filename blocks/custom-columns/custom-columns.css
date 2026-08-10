@@ -1,5 +1,6 @@
 .custom-columns {
   margin: 48px auto;
+  background: linear-gradient(147deg,#839db4,#d2d2d2 100%);
 }
 
 .custom-columns > div {
