@@ -17,7 +17,7 @@
 }
 
 /* Cards background color-section/Productway page*/
-.cards.Productway {
+body.Productway .cards {
   padding-top: 24px;
   padding-bottom: 24px;
   margin: 48px auto;
