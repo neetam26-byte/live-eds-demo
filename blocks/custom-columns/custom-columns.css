@@ -2,7 +2,7 @@
   margin: 48px auto;
 }
 /* Columns background color-section/Productway page*/
-.custom-columns.Productway {
+body.Productway .custom-columns {
   padding-top: 24px;
   padding-bottom: 24px;
   margin: 48px auto;
