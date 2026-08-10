@@ -4,7 +4,7 @@
 
 .custom-columns > div {
   display: grid;
-  gap: 24px;
+  gap: 16px;
 }
 
 .custom-columns > div.columns-2 {
@@ -18,6 +18,11 @@
 .custom-columns > div.columns-4 {
   grid-template-columns: repeat(4, 1fr);
 }
+
+.custom-columns > div.columns-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 
 .custom-columns .column {
   display: flex;
@@ -33,7 +38,8 @@
 @media (max-width: 900px) {
   .custom-columns > div.columns-2,
   .custom-columns > div.columns-3,
-  .custom-columns > div.columns-4 {
+  .custom-columns > div.columns-4,
+  .custom-columns > div.columns-5 {
     grid-template-columns: 1fr;
   }
 }
