@@ -15,6 +15,7 @@
   font-weight: 400;
   letter-spacing: .005em;
   line-height: 1.5rem;
+  box-shadow: 0 4px 10px var(--shadow-color);
 }
 
 /* //**background: linear-gradient(147deg,#839db4,#d2d2d2 100%);**\\*/
