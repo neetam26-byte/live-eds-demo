@@ -317,7 +317,8 @@ main > .section:first-of-type {
 }
 /* Cards background color-section/page style*/
 body.Productway {
-  background-color: #000;
+  background: linear-gradient(147deg, #839db4, #d2d2d2 100%);
+  background-image: linear-gradient(147deg, rgb(131, 157, 180), rgb(210, 210, 210) 100%);
 }
 
 /* section metadata */
