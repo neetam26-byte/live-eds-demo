@@ -29,7 +29,6 @@
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: .005em;
-  background: linear-gradient(147deg, #839db4, #d2d2d2 100%); 
   box-shadow: 0 4px 10px var(--shadow-color);
 }
 
