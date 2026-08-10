@@ -6,6 +6,8 @@
   padding-top: 24px;
   padding-bottom: 24px;
   margin: 48px auto;
+  -animation: rgba(0, 42, 88, .08);
+  background-color: #0a0e14;
   color: #fff;
   box-sizing: inherit;
   cursor: pointer;
