@@ -19,7 +19,7 @@
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: .005em;
-  box-shadow: rgba(0,42,88,.08) ; /*shadow-color */ 
+  box-shadow: 0 4px 10px var(--shadow-color);
 }
 
 .columns > div > div {
